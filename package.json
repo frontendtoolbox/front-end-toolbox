@@ -4,7 +4,9 @@
   "description": "The Front End Toolbox is a website that regroups a maximum number of tools that help creating a website. For instance a CSS to SCSS/SASS converter, a Neomorphism generator, a MarkDown generator etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
