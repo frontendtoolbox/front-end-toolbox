@@ -1,0 +1,25 @@
+{
+  "name": "front-end-toolbox",
+  "version": "1.0.0",
+  "description": "The Front End Toolbox is a website that regroups a maximum number of tools that help creating a website. For instance a CSS to SCSS/SASS converter, a Neomorphism generator, a MarkDown generator etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontendtoolbox/front-end-toolbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontendtoolbox/front-end-toolbox/issues"
+  },
+  "homepage": "https://github.com/frontendtoolbox/front-end-toolbox#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.506"
+  }
+}
